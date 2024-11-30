@@ -1,0 +1,11 @@
+,input size,learning rate,regularization,avg pool,validation accuracy,epoch
+Model0,64,0.001,,False,0.22972972972972974,4
+Model1,64,0.001,,False,0.34121621621621623,7
+Model2,64,0.001,dropout,False,0.34121621621621623,6
+Model3,64,0.001,dropout,True,0.33783783783783783,6
+Model4,64,0.001,"dropout, batch norm",True,0.4560810810810811,5
+Model5,64,0.001,"dropout, batch norm",True,0.5574324324324325,22
+Model4lrsched,64,step scheduler,"dropout, batch norm",True,0.5844594594594594,22
+Model5lrsched,64,step scheduler,"dropout, batch norm",True,0.5506756756756757,13
+Model4128lrsched,128,step scheduler,"dropout, batch norm",True,0.5608108108108109,11
+Model6,128,0.001,"dropout, batch norm",True,0.6351351351351351,35
