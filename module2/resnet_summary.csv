@@ -1,0 +1,6 @@
+,model,input size,learning rate,regularization,unfreezed layers,validation accuracy,epoch
+ResNet18,ResNet18,128,step scheduler,,,0.6385135135135135,4
+ResNet18_224,,224,step scheduler,data augmentation,,0.6993243243243243,3
+ResNet18_labelsmoothing,,224,step scheduler,"data augmentation, label smoothing, weight decay",,0.902027027027027,21
+ResNet18_trainfc,,224,step scheduler,"data augmentation, label smoothing, weight decay",[fc],0.6993243243243243,3
+ResNet18_trainfc_layer4_layer3,,224,step scheduler,"data augmentation, label smoothing, weight decay","[layer3, layer4, fc]",0.8986486486486487,28
