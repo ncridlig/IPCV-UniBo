@@ -8,4 +8,5 @@ Model5,64,0.001,"dropout, batch norm",True,0.5574324324324325,22
 Model4lrsched,64,step scheduler,"dropout, batch norm",True,0.5844594594594594,22
 Model5lrsched,64,step scheduler,"dropout, batch norm",True,0.5506756756756757,13
 Model4128lrsched,128,step scheduler,"dropout, batch norm",True,0.5608108108108109,11
+Model4128lrscheddouble,128,step scheduler,"dropout, batch norm",True,0.597972972972973,21
 Model6,128,0.001,"dropout, batch norm",True,0.6351351351351351,35
